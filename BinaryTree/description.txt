@@ -1,0 +1,17 @@
+Definição: Uma árvore binária T é um conjunto (finito) de nós tal
+que:
+    - T é vazia, ou
+    - T consiste de um nó chamado raiz de T e duas árvores
+        binárias disjuntas:
+         - Te : subárvore esquerda de T (ou da raiz de T) e
+         - Td : subárvore direita de T (ou da raiz de T).
+
+
+                                A                   A é pai de B e C
+                             /     \                B é pai de D e E
+                            B       C               B e C são filhos de A
+                          /   \    /                C é filho direito de A
+                         D     E  F
+        folhas: um nó que não tem filhos - D, E e F.
+        caminho: sequencia de nós tq cada nó é filho do anterior (A, B, E)
+        um nó X é ancestral de Y (Y é descendente de X) se existe um caminho de X a Y.
